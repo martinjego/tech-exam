@@ -1,0 +1,20 @@
+.Card {
+  display: flex;
+  font-size: 20px;
+  min-height: 400px;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.BoxContainer {
+  display: flex;
+  flex: 6;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  padding: 15px;
+}
+
