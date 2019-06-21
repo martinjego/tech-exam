@@ -3,5 +3,33 @@
   flex: 1;
   align-items: center;
   justify-content: flex-end;
+  flex-direction: row;
+  .Share {
+    flex: 1;
+    .share-icon {
+      color: #fff;
+      background: #57AE39;
+      border-radius: 20px;
+      padding: 5px;
+    }
+  }
+  .Stats {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    .StatsItem {
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      .icon {
+        height: 20px;
+        width: 20px;
+        margin-right: 5px;
+      }
+    }
+  }
 }
+
 

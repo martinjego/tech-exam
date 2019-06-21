@@ -1,7 +1,7 @@
 .Card {
   display: flex;
   font-size: 20px;
-  min-height: 400px;
+  height: 400px;
   align-items: center;
   justify-content: center;
   width: 400px;
@@ -18,3 +18,18 @@
   padding: 15px;
 }
 
+.UserContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+  font-size: 15px;
+  flex-direction: row;
+  width: 100%;
+  img {
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+    margin-right: 5px;
+  }
+}

@@ -4,7 +4,7 @@ import CardEngagement from '../CardEngagement';
 import './card.scss';
 
 const Card = (props) => {
-  const { item: { url } } = props;
+  const { item: { url, thumbnailUrl, title }, item } = props;
   return (
     <div className="Card">
       <div className="BoxContainer">
@@ -12,7 +12,8 @@ const Card = (props) => {
         <CardEngagement />
       </div>
       <div className="UserContainer">
-        User
+        <img src={thumbnailUrl} alt={title}/>
+        {item.title}
       </div>
     </div>
   )
